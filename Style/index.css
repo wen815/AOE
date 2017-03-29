@@ -1,0 +1,38 @@
+body{margin:0;}
+ul li{list-style: none;float:left;}
+.c2{color:red;}
+
+nav{z-index:1;position:fixed;background-color: black;opacity: 0.9;width:100%;height:100px;position:fixed;}
+#logo{z-index: 2;position:fixed;top:15px;left:20px;width:80px;height:auto;}
+#a1{z-index: 2;position:fixed;top:35px;left:130px;color: #f1ca84;font-size: 30px;font-weight: 800;}
+
+#u1{z-index: 2;position:fixed;top:30px;right:130px;}
+#u1 li{margin:10px 30px;color: #f1ca84;cursor:pointer;font-size:20px;}
+
+img{width:100%;z-index: 0;}
+/*Button to return top*/
+#btop{position: fixed;z-index:3;right:30px;bottom:30px;}
+/*The section of Home*/
+#sh{position: absolute;top:100px;width:100%;height: 515px;background-color: black;opacity: 0.6;}
+#sh2{position: absolute;top:100px;left:30px;width:90%;height: 515px;color: #f1ca84;}
+
+#h2a{position: absolute;left:-930px;top:80px;font-size:50px;}
+#h3a{margin-top:190px;color:white;position:absolute;right:-100px;font-size:30px;}
+/*The section of About*/
+#sa{position: absolute;top:615px;width:100%;height: 500px;background-color: black;opacity: 0.6;}
+#sa2{position: absolute;top:615px;left:5%;width:90%;height: 500px;color: #f1ca84;}
+#sa2 h2{text-align: center;}
+.pab{word-break: break-all;text-indent: 2em;}
+
+/*The section of Services*/
+#ss{position: absolute;top:1115px;width:100%;height: 500px;background-color: black;opacity: 0.6;}
+#ss2{position: absolute;top:1115px;left:30px;width:90%;height: 500px;color: #f1ca84;}
+#ss2 h2{text-align: center;}
+/*The section of Contact*/
+#sc{position: absolute;top:1615px;width:100%;height: 486px;background-color: black;opacity: 0.6;}
+#sc2{position: absolute;top:1615px;left:30px;width:90%;height: 486px;color: #f1ca84;}
+
+form{position: absolute;top:0px;right:100px;}
+.text{opacity: 0.8;width:300px;color:black;}
+.text1{opacity: 0.8;width:600px;height:200px;color:black;}
+#su{position: absolute;bottom:0;right:100px;background-color: green;color:black;}
